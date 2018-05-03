@@ -1,4 +1,4 @@
-# Codw Book for the Getting & Cleaning Data Course Project
+# Code Book for the Getting & Cleaning Data Course Project
 
 This is a summary of processed tidy data set stored as `tidy_data.txt`
 
