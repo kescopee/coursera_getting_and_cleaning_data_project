@@ -13,3 +13,84 @@ This is a summary of processed tidy data set stored as `tidy_data.txt`
     - `WALKING_DOWNSTAIRS` if the subject was descending down the stairs
     
 Please note that all measurements are floating-point values, normalised and bounded within [-1,1]
+
+## All measurements can be grouped into 2 domains:
+    ### Frequency domain (prefixed by `frequencyDomain`)
+    - `frequencyDomainBodyAccelerometerMeanX`
+	- `frequencyDomainBodyAccelerometerMeanY`
+	- `frequencyDomainBodyAccelerometerMeanZ`
+    - `frequencyDomainBodyAccelerometerJerkMeanX`
+	- `frequencyDomainBodyAccelerometerJerkMeanY`
+	- `frequencyDomainBodyAccelerometerJerkMeanZ`
+    - `frequencyDomainBodyAccelerometerMeanFrequencyX`
+	- `frequencyDomainBodyAccelerometerMeanFrequencyY`
+	- `frequencyDomainBodyAccelerometerMeanFrequencyZ`
+    - `frequencyDomainBodyAccelerometerStandardDeviationX`
+	- `frequencyDomainBodyAccelerometerStandardDeviationY`
+	- `frequencyDomainBodyAccelerometerStandardDeviationZ`
+	- `frequencyDomainBodyAccelerometerJerkStandardDeviationX`
+	- `frequencyDomainBodyAccelerometerJerkStandardDeviationY`
+	- `frequencyDomainBodyAccelerometerJerkStandardDeviationZ`
+    - `frequencyDomainBodyAccelerometerJerkMeanFrequencyX`
+	- `frequencyDomainBodyAccelerometerJerkMeanFrequencyY`
+	- `frequencyDomainBodyAccelerometerJerkMeanFrequencyZ`
+    - `frequencyDomainBodyGyroscopeMeanX`
+	- `frequencyDomainBodyGyroscopeMeanY`
+	- `frequencyDomainBodyGyroscopeMeanZ`
+    - `frequencyDomainBodyGyroscopeStandardDeviationX`
+	- `frequencyDomainBodyGyroscopeStandardDeviationY`
+	- `frequencyDomainBodyGyroscopeStandardDeviationZ`
+    - `frequencyDomainBodyGyroscopeJerkMagnitudeMean`
+	- `frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation`
+	- `frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency`
+    - `frequencyDomainBodyGyroscopeMagnitudeMean`
+	- `frequencyDomainBodyGyroscopeMagnitudeStandardDeviation`
+	- `frequencyDomainBodyGyroscopeMagnitudeMeanFrequency`
+    - `frequencyDomainBodyAccelerometerJerkMagnitudeMean`
+	- `frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation`
+	- `frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency`
+	- `frequencyDomainBodyAccelerometerMagnitudeMean`
+	- `frequencyDomainBodyAccelerometerMagnitudeStandardDeviation`
+	- `frequencyDomainBodyAccelerometerMagnitudeMeanFrequency`
+
+    ### Time domain (prefixed by `timeDomain`)
+    - `timeDomainBodyAccelerometerMeanX`
+	- `timeDomainBodyAccelerometerMeanY`
+	- `timeDomainBodyAccelerometerMeanZ`
+    - `timeDomainGravityAccelerometerMeanX`
+	- `timeDomainGravityAccelerometerMeanY`
+	- `timeDomainGravityAccelerometerMeanZ`
+    - `timeDomainBodyAccelerometerJerkMeanX`
+	- `timeDomainBodyAccelerometerJerkMeanY`
+	- `timeDomainBodyAccelerometerJerkMeanZ`
+    - `timeDomainBodyAccelerometerStandardDeviationX`
+	- `timeDomainBodyAccelerometerStandardDeviationY`
+	- `timeDomainBodyAccelerometerStandardDeviationZ`
+    - `timeDomainGravityAccelerometerStandardDeviationX`
+	- `timeDomainGravityAccelerometerStandardDeviationY`
+	- `timeDomainGravityAccelerometerStandardDeviationZ`
+    - `timeDomainBodyAccelerometerJerkStandardDeviationX`
+	- `timeDomainBodyAccelerometerJerkStandardDeviationY`
+	- `timeDomainBodyAccelerometerJerkStandardDeviationZ`
+    - `timeDomainBodyGyroscopeMeanX`
+	- `timeDomainBodyGyroscopeMeanY`
+	- `timeDomainBodyGyroscopeMeanZ`
+    - `timeDomainBodyGyroscopeStandardDeviationX`
+	- `timeDomainBodyGyroscopeStandardDeviationY`
+	- `timeDomainBodyGyroscopeStandardDeviationZ`
+    - `timeDomainBodyGyroscopeJerkMeanX`
+	- `timeDomainBodyGyroscopeJerkMeanY`
+	- `timeDomainBodyGyroscopeJerkMeanZ`
+    - `timeDomainBodyGyroscopeJerkStandardDeviationX`
+	- `timeDomainBodyGyroscopeJerkStandardDeviationY`
+	- `timeDomainBodyGyroscopeJerkStandardDeviationZ`
+    - `timeDomainBodyGyroscopeMagnitudeMean`
+	- `timeDomainBodyGyroscopeMagnitudeStandardDeviation`
+    - `timeDomainBodyGyroscopeJerkMagnitudeMean`
+	- `timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation`
+    - `timeDomainBodyAccelerometerMagnitudeMean`
+	- `timeDomainBodyAccelerometerMagnitudeStandardDeviation`
+    - `timeDomainGravityAccelerometerMagnitudeMean`
+	- `timeDomainGravityAccelerometerMagnitudeStandardDeviation`
+    - `timeDomainBodyAccelerometerJerkMagnitudeMean`
+	- `timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation`
