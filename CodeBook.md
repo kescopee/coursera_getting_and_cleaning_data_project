@@ -14,8 +14,10 @@ This is a summary of processed tidy data set stored as `tidy_data.txt`
     
 Please note that all measurements are floating-point values, normalised and bounded within [-1,1]
 
-## All measurements can be grouped into 2 domains:
+## All measurements can be grouped into 2 domains
+
     ### Frequency domain (prefixed by `frequencyDomain`)
+
     - `frequencyDomainBodyAccelerometerMeanX`
 	- `frequencyDomainBodyAccelerometerMeanY`
 	- `frequencyDomainBodyAccelerometerMeanZ`
@@ -54,6 +56,7 @@ Please note that all measurements are floating-point values, normalised and boun
 	- `frequencyDomainBodyAccelerometerMagnitudeMeanFrequency`
 
     ### Time domain (prefixed by `timeDomain`)
+
     - `timeDomainBodyAccelerometerMeanX`
 	- `timeDomainBodyAccelerometerMeanY`
 	- `timeDomainBodyAccelerometerMeanZ`
